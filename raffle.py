@@ -5,7 +5,7 @@ import json
 import numpy as np
 import pandas as pd
 
-seedHeight = 19558000 # expected to finalize April 1st, around 2AM UTC
+seedHeight = 19565000 # expected to finalize April 2nd, around 1.15AM UTC
 rpcUrl = 'https://eth-mainnet.public.blastapi.io'
 
 curHeightReply = requests.post(rpcUrl, json={'id': 0, 'jsonrpc': '2.0', 'method': 'eth_blockNumber'})
